@@ -1,7 +1,7 @@
 {
-  "name": "sfpecli",
+  "name": "sfpe",
   "version": "1.0.0",
-  "description": "To install dependencies:",
+  "description": "This is sfpe CLI application for working with Salesforce platform events from the command line.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/cloudzcodey/sfpecli/issues"
   },
-  "homepage": "https://github.com/cloudzcodey/sfpecli#readme"
+  "homepage": "https://github.com/cloudzcodey/sfpecli#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }

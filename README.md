@@ -1,5 +1,5 @@
 # sfpecli
-This is sfpe CLI application for subcribing and publishing platform events from the command line.
+This is sfpe CLI application for working with Salesforce platform events from the command line.
 
 See command line help with -h or --help parameters of the cli.
 
