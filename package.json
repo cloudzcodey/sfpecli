@@ -1,5 +1,5 @@
 {
-  "name": "sfpe",
+  "name": "sfpecli",
   "version": "1.0.0",
   "description": "This is sfpe CLI application for working with Salesforce platform events from the command line.",
   "main": "app.js",
@@ -18,7 +18,7 @@
   },
   "type": "module",
   "bin": {
-    "sfpecli": "app.js"
+    "sfpe": "app.js"
   },
   "pkg": {
     "targets": [
