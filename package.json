@@ -1,0 +1,37 @@
+{
+  "name": "sfpecli",
+  "version": "1.0.0",
+  "description": "To install dependencies:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CloudzCode",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "salesforce-pubsub-api-client": "^4.0.1"
+  },
+  "type": "module",
+  "bin": {
+    "sfpecli": "app.js"
+  },
+  "pkg": {
+    "targets": [
+      "node12-linux-x64"
+    ]
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cloudzcodey/sfpecli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudzcodey/sfpecli/issues"
+  },
+  "homepage": "https://github.com/cloudzcodey/sfpecli#readme"
+}
