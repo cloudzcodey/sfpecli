@@ -123,7 +123,7 @@ program
   )
   .requiredOption(
     "-t, --topic <topic_name>",
-    "Salesforce platform event/change data capture topic"
+    "Salesforce platform event/change data capture topic, examples: 'event/my_event__e' or 'data/AccountChangeEvent'"
   )
   .option("-r, --replayid <replayId>", "Replay id to be used in subscription")
   .option("-n, --numevents <numEvents>", "How many events you want to recieve after subscription")
