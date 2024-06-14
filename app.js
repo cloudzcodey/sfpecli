@@ -13,24 +13,13 @@ process.env.SALESFORCE_AUTH_TYPE = "user-supplied";
 
 program
   .version("1.0.0")
-  .description("This is Salesforce Platform Event helper CLI.")
+  .description("sfpe CLI is an app for working with Salesforce platform events from the command line.")
 
 program
   .command("list")
   .description("List all historical salesforce connection aliases.")
   .action(async (options) => {
     listAliases();
-  });
-
-program
-  .command("rm")
-  .description("Remove a authenticated connection by it's alias name")
-  .requiredOption(
-    "-a, --alias <alias>",
-    "Alias of conneciton to be removed."
-  )
-  .action(async (options) => {
-    removeAlias(options.alias);
   });
 
 program
@@ -109,9 +98,21 @@ program
     try {
       //console.log("Authentication parameters: ", options);
       await authenticateWithJWT(options);
+      console.log(`Alias ${options.alias} successfully registered.`);
     } catch (error) {
       console.error("error in authentication: ", error);
     }
+  });
+
+program
+  .command("rm")
+  .description("Remove a authenticated connection by it's alias name")
+  .requiredOption(
+    "-a, --alias <alias>",
+    "Alias of conneciton to be removed."
+  )
+  .action(async (options) => {
+    removeAlias(options.alias);
   });
 
 program
