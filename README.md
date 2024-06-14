@@ -1,3 +1,6 @@
+
+<img src="./assets/sfpeclilogo.png" alt="SePe CLI Logo" width="100" style="display: block; margin: 0 auto"/>
+
 # sfpecli
 **sfpe** is a command-line interface (CLI) application for working with Salesforce Platform Events. With this CLI, you can subscribe to platform events and Change Data Capture events, publish platform events, and listen to events within Salesforce or any other system subscribed to those platform events.
 
