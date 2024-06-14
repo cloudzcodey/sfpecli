@@ -5,9 +5,9 @@
 **sfpe** is a command-line interface (CLI) application for working with Salesforce Platform Events. With this CLI, you can subscribe to platform events and Change Data Capture events, publish platform events, and listen to events within Salesforce or any other system subscribed to those platform events.
 
 ## Features
-**Subscribe to Platform Events:** Subscribe with a replayId to receive all platform events published after that replayId. You can also specify the number of events to receive.
-**Publish Platform Events:** Publish platform events directly from the CLI.
-**Authentication Management:** Store and manage authenticated connections securely.
+**Subscribe to Platform Events:** Subscribe with a replayId to receive all platform events published after that replayId. You can also specify the number of events to receive.   
+**Publish Platform Events:** Publish platform events directly from the CLI.    
+**Authentication Management:** Store and manage authenticated connections securely.    
 
 See command line help with -h or --help parameters of the cli.
 
