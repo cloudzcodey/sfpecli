@@ -1,13 +1,13 @@
 {
   "name": "sfpecli",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "This is sfpe CLI application for working with Salesforce platform events from the command line.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CloudzCode",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",

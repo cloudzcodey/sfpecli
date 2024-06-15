@@ -1,3 +1,4 @@
+<meta name='keywords' content='salesforce, platform events, change data capture, cli, sfdx, sf, sfdc,sfpecli,sfpe,connected app'>
 <p align="center">
   <img src="./assets/sfpeclilogo.png" alt="SePe CLI Logo" width="100" >
 </p>
